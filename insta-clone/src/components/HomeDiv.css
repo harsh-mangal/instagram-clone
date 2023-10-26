@@ -1,26 +1,37 @@
-.home img{
+img {
+    width: 8%;
+    object-fit: contain;
+}
+
+
+
+.home-div img {
     width: 17vw;
 
-    /* margin-left: 10vw; */
+
     padding: 20px;
     margin-top: 10px;
     margin-bottom: 0px;
     color: #9a9a9a;
 }
-.home{
+
+.home-div {
     display: flex;
     padding: 20px;
-    justify-content :center;
+    justify-content: center;
+    text-align: center;
 }
-.login-menu{
-    padding : 0px 20px;
+
+.home-div .login-menu {
+    padding: 0px 20px;
     margin-top: 50px;
-    border :1px solid #dfdfdf;
+    border: 1px solid #dfdfdf;
     width: 300px;
     height: 400px;
     margin-bottom: 0px;
 }
-.login-menu input{
+
+.home-div .login-menu input {
     background-color: #fafafa;
     border: 0.1px solid #dfdfdf;
     border-radius: 2px;
@@ -28,7 +39,8 @@
     width: 280px;
     margin-bottom: 5px;
 }
-.login-menu button{
+
+.home-div .login-menu button {
     border: none;
     border-radius: 10px;
     padding: 10px;
@@ -36,32 +48,33 @@
     margin-top: 10px;
     color: white;
     background-color: #4cb5f9;
-    font-weight: bold;   
+    font-weight: bold;
     font-size: small;
 }
-.fp{
+
+.home-div .fp {
     color: #3f6990;
     font-size: smaller;
 }
-.login-menu h4{
+
+.home-div .login-menu h4 {
     color: #9a9a9a;
     font-weight: normal;
     font-size: medium;
 }
-img{
-    width: 8%;
-    object-fit: contain;
-}
-.login-menu-2{
-    padding : 10px 20px;
+
+.home-div .login-menu-2 {
+    padding: 10px 20px;
     margin-top: 10px;
-    border :1px solid #dfdfdf;
+    border: 1px solid #dfdfdf;
     width: 300px;
     height: 50px;
 }
-.insta-logo{
+
+.home-div .insta-logo {
     width: 180px !important;
 }
-a{
+
+.home-div a {
     color: #159ef7;
 }
