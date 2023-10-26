@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../img/logo.png";
 import '../components/signup.css'
 import Footer from "./Footer";
-const signup = () => {
+const Signup = () => {
   return (
     <div>
       <div className="signup-menu">
@@ -32,4 +32,4 @@ const signup = () => {
   );
 };
 
-export default signup;
+export default Signup;
