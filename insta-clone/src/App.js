@@ -1,16 +1,15 @@
-import './App.css';
-import Footer from './components/Footer';
-import { HomeDiv } from './components/HomeDiv';
-
-
+import "./App.css";
+import { HomeDiv } from "./components/HomeDiv";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {Signup} from "./components/Signup";
 function App() {
   return (
-    <div className="App">
-      {/* <h1>instagram clone</h1> */}
-      {/* <Navbar/> */}
-      <HomeDiv/>
-      <Footer/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomeDiv />} />
+        <Route path="signup" element={<Signup />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
